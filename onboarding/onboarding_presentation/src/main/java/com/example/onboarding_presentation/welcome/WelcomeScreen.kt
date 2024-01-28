@@ -13,10 +13,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.dp
-import com.example.core.R
-import com.example.core.navigation.Route
-import com.example.core.util.UiEvent
+import com.example.core_domain.R
+import com.example.core_domain.navigation.Route
+import com.example.core_domain.util.UiEvent
 import com.example.core_ui.LocalSpacing
 import com.example.onboarding_presentation.components.ActionButton
 

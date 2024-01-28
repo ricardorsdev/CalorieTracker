@@ -6,7 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.core.navigation.Route
+import com.example.core_domain.navigation.Route
 import com.example.onboarding_presentation.welcome.WelcomeScreen
 import com.plcoding.calorytracker.navigation.navigate
 import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
