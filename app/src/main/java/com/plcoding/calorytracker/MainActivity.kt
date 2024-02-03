@@ -54,10 +54,16 @@ class MainActivity : ComponentActivity() {
                             )
                         }
                         composable(Route.HEIGHT) {
-                            /*TODO*/
+                            HeightScreen(
+                                onNavigate = navController::navigate,
+                                scaffoldState = scaffoldState,
+                            )
                         }
                         composable(Route.WEIGHT) {
-                            /*TODO*/
+                            WeightScreen(
+                                onNavigate = navController::navigate,
+                                scaffoldState = scaffoldState,
+                            )
                         }
                         composable(Route.NUTRIENT_GOAL) {
                             /*TODO*/
