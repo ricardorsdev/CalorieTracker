@@ -65,14 +65,13 @@ class MainActivity : ComponentActivity() {
                                 scaffoldState = scaffoldState,
                             )
                         }
-                        composable(Route.NUTRIENT_GOAL) {
-                            /*TODO*/
-                        }
                         composable(Route.ACTIVITY) {
-                            /*TODO*/
+                            ActivityScreen(
+                                onNavigate = navController::navigate
+                            )
                         }
                         composable(Route.GOAL) {
-                            /*TODO*/
+                            GoalScreen(onNavigate = navController::navigate)
                         }
                         composable(Route.TRACKER_OVERVIEW) {
                             /*TODO*/
