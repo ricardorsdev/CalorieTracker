@@ -68,7 +68,7 @@ fun NutrientsHeader(
                 )
                 UnitDisplay(
                     amount = state.caloriesGoal,
-                    unit = stringResource(id = R.string.grams),
+                    unit = stringResource(id = R.string.kcal),
                     amountColor = MaterialTheme.colors.onPrimary,
                     amountTextSize = 40.sp,
                     unitColor = MaterialTheme.colors.onPrimary
