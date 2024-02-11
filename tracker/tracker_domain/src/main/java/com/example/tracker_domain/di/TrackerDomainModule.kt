@@ -12,14 +12,14 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
-import javax.inject.Singleton
+import dagger.hilt.android.scopes.ViewModelScoped
 
 @Module
 @InstallIn(ViewModelComponent::class)
 object TrackerDomainModule {
 
+    @ViewModelScoped
     @Provides
-    @Singleton
     fun provideTrackerUseCases(
         repository: TrackerRepository,
         preferences: Preferences
