@@ -26,6 +26,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import com.example.core_domain.R
 import com.example.core_ui.LocalSpacing
+import com.example.tracker_presentation.components.NutrientInfo
 import com.example.tracker_presentation.components.UnitDisplay
 import com.example.tracker_presentation.tracker_overview.Meal
 

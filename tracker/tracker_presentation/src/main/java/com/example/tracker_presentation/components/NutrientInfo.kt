@@ -1,4 +1,4 @@
-package com.example.tracker_presentation.tracker_overview.components
+package com.example.tracker_presentation.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material.MaterialTheme
