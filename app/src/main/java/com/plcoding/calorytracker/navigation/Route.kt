@@ -1,4 +1,4 @@
-package com.example.core_domain.navigation
+package com.plcoding.calorytracker.navigation
 
 object Route {
     const val WELCOME = "welcome"
